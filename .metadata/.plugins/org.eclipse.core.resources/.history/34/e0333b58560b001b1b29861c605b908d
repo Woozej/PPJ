@@ -1,0 +1,11 @@
+package ppj;
+
+public class App {
+	public static void main(String[] args) {
+		PlayCard firstCard = new PlayCard(1,3);
+		PlayCard secondCard = new PlayCard(11,2);
+		PlayCard thirdCard = new PlayCard(9,1);
+		firstCard.ShowCard();
+		secondCard.ShowCard();
+	}
+}

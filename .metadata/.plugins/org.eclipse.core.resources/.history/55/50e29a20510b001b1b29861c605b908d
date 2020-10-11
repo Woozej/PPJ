@@ -1,0 +1,7 @@
+package ppj;
+
+public abstract class CardNumber {
+protected int cardID;
+proteted 
+protected abstract void ShowNumber();
+}

@@ -1,0 +1,9 @@
+package ppj;
+
+public interface TrafficColor {
+	void green();
+
+	void yellow();
+
+	void red();
+}

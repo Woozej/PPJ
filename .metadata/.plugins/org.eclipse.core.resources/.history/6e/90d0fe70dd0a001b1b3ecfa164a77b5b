@@ -1,0 +1,12 @@
+package ppj;
+
+public class TrafficLight extends Light implements TrafficColor {
+	public TrafficLight(String color) {
+		setColor(color);
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+}
